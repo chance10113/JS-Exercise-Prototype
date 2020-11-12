@@ -129,10 +129,10 @@ Baby.prototype.play = function play(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When you are in global scope, this corrosponds to the window in a browser, or the terminal in VSCode. Don't do it.
+  2. When a function is called by a dot before it, the object before the dot corrosponds to this.
+  3. When using constructor functions, this corrosponds to the object created and returned by said function
+  4. When using the call or apply methods in JS, this is defined explicitly to them.
 */
 
 
